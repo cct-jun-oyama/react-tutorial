@@ -51,4 +51,4 @@ branch: `sample/12_implementation-of-time-travel`
 
 
 ###### Typescript版
-branch: `sample-ts/01_change-to-typescript`
+branch: `sample-ts/01_change-to-typescript` 以降のmaster

@@ -1,68 +1,50 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### Reactチュートリアル日本語版
+https://ja.reactjs.org/tutorial/tutorial.html#setup-for-the-tutorial
 
-## Available Scripts
 
-In the project directory, you can run:
+適宜にブランチを切っているので、ソースを確認する際の参考にしてください。
 
-### `npm start`
+##### チュートリアルを始める前に （省略）
+以下のような機能を有する三目並べゲームを作成します
+- 三目並べが遊べる
+- 決着がついたときに表示ができる
+- ゲーム進行にあわせて履歴が保存される
+- 着手の履歴の見直しや盤面の以前の状態の参照ができる
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+##### チュートリアルの準備 オプション
+###### 2: ローカル開発環境
+branch: `sample/01_starter-code`
+※ 自分で環境構築する場合はサイトの説明を見るかチュートリアル.mdを参照してください。
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+##### 概要
+###### React とは？
+###### スターターコードの中身を確認する
+###### データを Props 経由で渡す
+branch: `sample/02_pass-data-through-props`
+###### インタラクティブなコンポーネントを作る
+branch: `sample/03_create-interactive-components`
+###### Developer Tools
 
-### `npm test`
+##### ゲームを完成させる
+###### State のリフトアップ
+branch: `sample/04_state-lift-up_01`
+branch: `sample/05_state-lift-up_02`
+###### イミュータビリティは何故重要なのか
+###### 関数コンポーネント
+branch: `sample/06_functional-component`
+###### 手番の処理
+branch: `sample/07_processing-of-turn`
+###### ゲーム勝者の判定
+branch: `sample/08_determination-of-the-game-winner`
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+##### タイムトラベル機能の追加
+###### 着手の履歴の保存
+###### State のリフトアップ、再び
+branch: `sample/09_storing-a-history-of-moves`
+###### 過去の着手の表示
+branch: `sample/10_display-of-past-starts`
+###### Key を選ぶ
+###### タイムトラベルの実装
+branch: `sample/11_fix-key-warning`
+branch: `sample/12_implementation-of-time-travel`
+###### まとめ

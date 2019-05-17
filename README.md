@@ -44,8 +44,8 @@ branch: `sample/09_storing-a-history-of-moves`
 ###### 過去の着手の表示
 branch: `sample/10_display-of-past-starts`
 ###### Key を選ぶ
-###### タイムトラベルの実装
 branch: `sample/11_fix-key-warning`
+###### タイムトラベルの実装
 branch: `sample/12_implementation-of-time-travel`
 ###### まとめ
 
